@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "cicdadfproject1dev"
+		},
+		"AzureBlobStorage1dev_properties_typeProperties_connectionString_secretName": {
+			"value": "cicddevsecret"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://cicdkeyproject1dev.vault.azure.net/"
+		},
+		"AzureKeyVault1dev_properties_typeProperties_baseUrl": {
+			"value": "https://cicdkeyproject1dev.vault.azure.net/"
+		},
+		"cicdkeyproject1dev_properties_typeProperties_baseUrl": {
+			"value": "https://cicdkeyproject1dev.vault.azure.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
