@@ -1,0 +1,9 @@
+{
+	"name": "cicdadfproject1dev",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "be6d8e26-bd62-4e7a-a8b5-52d129d674fe",
+		"tenantId": "a550c08a-bd4e-4ad0-a723-26dddfbbf812"
+	}
+}
